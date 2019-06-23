@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_planets/pages/homePageBody.dart';
 import 'package:flutter_planets/widget/gradientAppBar.dart';
 
 void main() => runApp(MyApp());
@@ -26,7 +27,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Column(
-      children: <Widget>[GradientAppBar("trevia")],
+      children: <Widget>[
+        GradientAppBar("trevia"),
+        HomePageBody(),
+        HomePageBody(),
+        HomePageBody(),
+        HomePageBody(),
+      ],
     ));
   }
 }
