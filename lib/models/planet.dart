@@ -6,6 +6,7 @@ class Planet {
   final String gravity;
   final String description;
   final String image;
+  final String backgroundImage;
 
   Planet(
       {this.id,
@@ -14,5 +15,6 @@ class Planet {
       this.distance,
       this.gravity,
       this.description,
-      this.image});
+      this.image,
+      this.backgroundImage});
 }
