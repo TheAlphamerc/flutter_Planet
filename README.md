@@ -2,7 +2,7 @@
 
 Flutter good looking Planets Detail sample app.</Br>
 This Design is based on [Space Travel UI](https://www.uplabs.com/posts/space-travel-ui) designed by [Vijay Verma](https://www.uplabs.com/realvjy)
-
+<img src="https://sergiandreplace.com/img/planets-preview.png"/> 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
